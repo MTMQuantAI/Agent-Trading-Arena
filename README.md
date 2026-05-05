@@ -2,7 +2,7 @@
 <div align="center">
 
 [[arXiv]](https://arxiv.org/abs/2502.17967)
-[[PDF]](https://arxiv.org/pdf/2502.17967)
+[[PDF]]([https://arxiv.org/pdf/2502.17967](https://aclanthology.org/2025.findings-emnlp.294.pdf))
 
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)]()
 [![GitHub license](https://img.shields.io/badge/MIT-blue)]()
@@ -19,7 +19,7 @@ The Agent Trading Arena is a closed-loop, prior-free human-like trading environm
 
 ## Python Install
 ```
-git clone https://github.com/wekjsdvnm/Agent-Trading-Arena
+git clone https://github.com/MTMQuantAI/Agent-Trading-Arena.git
 cd Agent-Trading-Arena
 pip install -r requirement.txt
 ```
@@ -42,10 +42,11 @@ sh run.sh
 # Citation
 If you find our work useful, please consider citing us!
 ```
-@misc{ma2025agenttradingarena,
-      title={Agent Trading Arena: A Study on Numerical Understanding in LLM-Based Agents}, 
-      author={Tianmi Ma and Jiawei Du and Wenxin Huang and Wenjie Wang and Liang Xie and Xian Zhong and Joey Tianyi Zhou},
-      year={2025},
-      journal={arXiv preprint arXiv: 2502.17967},
+@inproceedings{ma2025agent,
+  title={Agent Trading Arena: A Study on Numerical Understanding in LLM-Based Agents},
+  author={Ma, Tianmi and Du, Jiawei and Huang, Wenxin and Wang, Wenjie and Xie, Liang and Zhong, Xian and Zhou, Joey Tianyi},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={5496--5514},
+  year={2025}
 }
 ```
