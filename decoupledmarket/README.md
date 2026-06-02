@@ -78,7 +78,6 @@ Large language models are useful planners, but they are not reliable calculators
 The method contains two complementary views. The first view highlights the decoupled reasoning-computation workflow. The second compares the digital twin market setup with real market conditions, emphasizing controllability, reproducibility, and structured evaluation.
 
 <p align="center">
-  <img src="assets/figures/decoupled.png" width="32%" alt="DecoupledMarket example">
   <img src="assets/figures/real-market.png" width="60%" alt="Real market comparison">
 </p>
 
@@ -95,13 +94,14 @@ The platform provides controllability and reproducibility for market reasoning t
 We evaluate the framework across different market settings to test whether the learned reasoning and tool-use patterns transfer beyond a single simulated environment.
 
 <p align="center">
-  <img src="assets/figures/csi.png" width="30%" alt="CSI result">
-  <img src="assets/figures/nasdaq.png" width="30%" alt="NASDAQ result">
-  <img src="assets/figures/crypto.png" width="30%" alt="Crypto result">
+  <img src="assets/figures/decoupled.png" width="24%" alt="DecoupledMarket example">
+  <img src="assets/figures/csi.png" width="24%" alt="CSI result">
+  <img src="assets/figures/nasdaq.png" width="24%" alt="NASDAQ result">
+  <img src="assets/figures/crypto.png" width="24%" alt="Crypto result">
 </p>
 
 <p align="center">
-  <em>Figure 4. Cross-market results on CSI, NASDAQ, and crypto-style settings illustrate behavior under different price dynamics and volatility regimes.</em>
+  <em>Figure 4. Cross-market results on DecoupledMarket, CSI, NASDAQ, and crypto-style settings illustrate behavior under different price dynamics and volatility regimes.</em>
 </p>
 
 ### Wealth Dynamics
