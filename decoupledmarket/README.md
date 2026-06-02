@@ -26,6 +26,10 @@
   <img src="assets/figures/framework.png" width="95%" alt="DecoupledMarket framework">
 </p>
 
+<p align="center">
+  <em>Figure 1. DecoupledMarket couples a controllable digital twin market with LLM planning, tool construction, quantitative analysis, and feedback-driven refinement.</em>
+</p>
+
 ## Overview
 
 DecoupledMarket is a controllable digital twin market for studying LLM-driven quantitative reasoning. The key idea is to decouple high-level reasoning from numerical computation: LLM agents plan, analyze, and interpret results, while specialized tools handle quantitative computation and statistical inference.
@@ -57,17 +61,29 @@ The original Agent Trading Arena code should remain available for the Findings o
 
 ## Motivation
 
+The motivation is to avoid using LLMs as direct numerical calculators. Instead, DecoupledMarket treats the LLM as a planner that builds and selects task-specific tools, then uses market feedback to refine future decisions.
+
 <p align="center">
   <img src="assets/figures/motivation.png" width="80%" alt="Motivation">
+</p>
+
+<p align="center">
+  <em>Figure 2. The proposed workflow separates planning from computation: LLMs reason about the task, external tools execute quantitative operations, and the market environment provides feedback.</em>
 </p>
 
 Large language models are useful planners, but they are not reliable calculators for quantitative finance. DecoupledMarket assigns LLMs to planning and interpretation while delegating numerical computation to explicit tools, then evaluates and refines behavior inside a controlled market environment.
 
 ## Method
 
+The method contains two complementary views. The first view highlights the decoupled reasoning-computation workflow. The second compares the digital twin market setup with real market conditions, emphasizing controllability, reproducibility, and structured evaluation.
+
 <p align="center">
   <img src="assets/figures/decoupled.png" width="32%" alt="DecoupledMarket example">
   <img src="assets/figures/real-market.png" width="60%" alt="Real market comparison">
+</p>
+
+<p align="center">
+  <em>Figure 3. DecoupledMarket isolates controllable market dynamics while preserving the decision pressure of realistic trading environments.</em>
 </p>
 
 The platform provides controllability and reproducibility for market reasoning tasks. Agents repeatedly interact with the market, receive structured feedback, refine tools and strategies, and compete against baselines.
@@ -76,13 +92,21 @@ The platform provides controllability and reproducibility for market reasoning t
 
 ### Cross-Market Evaluation
 
+We evaluate the framework across different market settings to test whether the learned reasoning and tool-use patterns transfer beyond a single simulated environment.
+
 <p align="center">
   <img src="assets/figures/csi.png" width="30%" alt="CSI result">
   <img src="assets/figures/nasdaq.png" width="30%" alt="NASDAQ result">
   <img src="assets/figures/crypto.png" width="30%" alt="Crypto result">
 </p>
 
+<p align="center">
+  <em>Figure 4. Cross-market results on CSI, NASDAQ, and crypto-style settings illustrate behavior under different price dynamics and volatility regimes.</em>
+</p>
+
 ### Wealth Dynamics
+
+The wealth k-line plots visualize how agent portfolios evolve through the self-play process. They provide an intuitive view of stability, drawdowns, and the effect of strategy refinement.
 
 <p align="center">
   <img src="assets/figures/wealth-kline-0.png" width="31%" alt="Wealth k-line 0">
@@ -90,10 +114,20 @@ The platform provides controllability and reproducibility for market reasoning t
   <img src="assets/figures/wealth-kline-2.png" width="31%" alt="Wealth k-line 2">
 </p>
 
+<p align="center">
+  <em>Figure 5. Wealth dynamics for representative settings show how agents accumulate gains, absorb losses, and adapt over repeated market interactions.</em>
+</p>
+
 ### Case Study
+
+The case study traces an example decision process, showing how market observations, generated tools, quantitative signals, and final trading actions are connected.
 
 <p align="center">
   <img src="assets/figures/case-study.png" width="70%" alt="Case study">
+</p>
+
+<p align="center">
+  <em>Figure 6. A representative case study of the DecoupledMarket reasoning loop from observation to tool-supported decision-making.</em>
 </p>
 
 ## Installation
