@@ -105,7 +105,6 @@ DecoupledMarket reads keys from environment variables. See [`decoupledmarket/REA
 Agent-Trading-Arena/
 |-- Agent-Trading-Arena/   # Findings of EMNLP 2025 code
 |-- decoupledmarket/       # ICML 2026 DecoupledMarket code
-|-- docs/                  # Additional documentation
 |-- images/                # Root README figures
 |-- requirement.txt        # Dependencies for Agent Trading Arena
 `-- README.md              # Repository landing page
