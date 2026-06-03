@@ -25,7 +25,7 @@ This repository hosts our research line on LLM-based trading agents, numerical u
 
 | Project | Paper | Venue | Code |
 | --- | --- | --- | --- |
-| **Agent Trading Arena** | Agent Trading Arena: A Study on Numerical Understanding in LLM-Based Agents | Findings of EMNLP 2025 | [`Agent-Trading-Arena/`](Agent-Trading-Arena/) |
+| **Agent Trading Arena** | Agent Trading Arena: A Study on Numerical Understanding in LLM-Based Agents | EMNLP 2025 | [`Agent-Trading-Arena/`](Agent-Trading-Arena/) |
 | **DecoupledMarket** | Evolving Quantitative Reasoning through Self-Play in Digital Twin Markets | ICML 2026 | [`decoupledmarket/`](decoupledmarket/) |
 
 ## Project Overview
